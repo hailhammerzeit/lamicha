@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Micha | Pizzería</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <span class="tag">La Micha</span>
+      <h1>La pizzería de barrio con sabor casero</h1>
+      <p>Pedí pizza amplia y rica para llevar o pedir por cuadra. Horarios flexibles y sabor auténtico.</p>
+      <a href="#contacto" class="btn">Hacé tu pedido</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1601924570777-92fa70e40d33?auto=format&fit=crop&w=1000&q=80" alt="Pizza La Micha" />
+  </header>
+
+  <main>
+    <section id="about" class="section light">
+      <div class="container">
+        <h2>¿Qué es La Micha?</h2>
+        <p>La Micha es una pizzería local que vende pizzas recién hechas, con ingredientes frescos y una masa bien dorada. Ideal para familias, estudiantes y trabajadores del barrio.</p>
+        <div class="features">
+          <div>
+            <h3>Delivery rápido</h3>
+            <p>Pedidos listos a tiempo para que la pizza llegue caliente.</p>
+          </div>
+          <div>
+            <h3>Recetas caseras</h3>
+            <p>Sabores tradicionales con toque especial de la casa.</p>
+          </div>
+          <div>
+            <h3>Pago fácil</h3>
+            <p>Transferencia, efectivo o pago por app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section dark">
+      <div class="container">
+        <h2>Menu destacado</h2>
+        <div class="menu-grid">
+          <article>
+            <h3>Pizza Muzzarella</h3>
+            <p>Salsa de tomate, muzzarella derretida y orégano.</p>
+            <span>Desde $12.000</span>
+          </article>
+          <article>
+            <h3>Pizza Especial</h3>
+            <p>Jamón, morrón, aceitunas y huevo duro.</p>
+            <span>Desde $15.000</span>
+          </article>
+          <article>
+            <h3>Pizza Fugazzeta</h3>
+            <p>Cebolla caramelizada, muzzarella y salsa suave.</p>
+            <span>Desde $14.000</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="horarios" class="section light">
+      <div class="container split">
+        <div>
+          <h2>Horarios</h2>
+          <p>Atendemos todos los días para que puedas pedir cuando tengas hambre.</p>
+          <ul>
+            <li>Martes a domingo: 18:00 - 23:30</li>
+            <li>Lunes: cerrado</li>
+            <li>Pedidos por WhatsApp o en persona</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Ubicación</h2>
+          <p>La Micha - Tu pizzería de barrio.</p>
+          <p><strong>Dirección:</strong> Zona céntrica, cerca de la plaza.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section dark">
+      <div class="container">
+        <h2>Contactanos</h2>
+        <p>Escribinos y hacemos tu pizza ahora.</p>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+
+          <label for="phone">WhatsApp</label>
+          <input type="tel" id="phone" name="phone" placeholder="Número de teléfono" required />
+
+          <label for="message">Pedido / mensaje</label>
+          <textarea id="message" name="message" placeholder="Quiero una muzza grande..." rows="4" required></textarea>
+
+          <button type="submit" class="btn">Enviar pedido</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 La Micha • No borrar datos • Horarios actualizados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
